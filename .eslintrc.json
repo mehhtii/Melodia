@@ -1,3 +1,13 @@
 {
-  "extends": "next/core-web-vitals"
+  "extends": [
+    "next/core-web-vitals",
+    "plugin:prettier/recommended",
+    "plugin:@next/next/recommended"
+  ],
+  "rules": {
+    "next/no-img-element": "off",
+    "prettier/prettier": ["off"],
+    "eslint-disable-next-line":"off"
+  },
+  "plugins": ["prettier"]
 }

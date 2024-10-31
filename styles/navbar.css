@@ -1,0 +1,43 @@
+.mobile_navabr_h{
+    height: 50px;
+}
+.tablet_navbar_w{
+    max-width: 200px !important;
+}
+
+::-webkit-scrollbar{
+    width: 4px;
+    background-color:  #ee10b0;
+}
+::-webkit-scrollbar-track {
+    box-shadow: inset 0px -1px 13px #da049d;
+    border-radius: 10px;
+}
+::-webkit-scrollbar-thumb {
+    background: #dbf0fd ;
+    border-radius: 10px;
+}
+
+
+/*____Responsive Menu design________ */
+.background-modal{
+    background-color: #1717179f;
+}
+.bg-blur{
+    background: #171717 ;
+}
+
+/*____Responsive Menu design________ */
+
+
+.search_box{
+    background-color: #171717af;
+}
+
+
+/*___the mobile bottom bar styles section____start */
+.mobile_bottom_bar{
+    height: 93px;
+    background-color: black;      
+  }
+/*___the mobile bottom bar styles section____end */
